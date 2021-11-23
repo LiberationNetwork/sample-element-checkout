@@ -95,6 +95,7 @@ const Appbar = (props) => {
     let [isCheckingOut, setIsCheckingOut] = useState(false)
     let [liberalizeClass, setLiberalizeClass] = useState(null)
     let [cardModMounted, setCardModMounted] = useState(false)
+    let [qrModMounted, setQrModMounted] = useState(false)
     let [qrImages, setQrImages] = useState({})
     let [loadingQRs, setLoadingQRs] = useState(false)
     let [loadingCardMod, setLoadingCardMod] = useState(false)
@@ -147,6 +148,7 @@ const Appbar = (props) => {
                 toggleDrawer()
                 setIsCheckingOut(false)
                 setCardModMounted(false)
+                setQrModMounted(false)
             }}
           >
             {!isCheckingOut && <div className={classes.drawerHeader}>
@@ -231,11 +233,12 @@ const Appbar = (props) => {
 
             {/* QR PAYMENTS */}
             {isCheckingOut &&<Accordion onClick={async () => {
-                if (!cardModMounted) {
+                if (!qrModMounted) {
                     setLoadingQRs(true)
                     const supported = await liberalizeClass.qrSupported()
                     // supported will be one more many accounts for a particular payment scheme
                     setQrImages(supported)
+                    setQrModMounted(true)
                     setLoadingQRs(false)
                 }
             }}>
@@ -279,6 +282,7 @@ const Appbar = (props) => {
             {isCheckingOut && <Button className={classes.payButton} onClick={() => {
                 setIsCheckingOut(false)
                 setCardModMounted(false)
+                setQrModMounted(false)
             }}>BACK</Button>}
           </Drawer>
         </React.Fragment>
