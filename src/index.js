@@ -3,11 +3,21 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import configureStore from './app/configureStore';
+import { Provider } from 'react-redux';
+import { HashRouter as Router } from 'react-router-dom';
+import NavBar from './containers/NavBar'
 
+const store = configureStore({checkout: { basket: {cap: 0, shoe: 0, tshirt: 0} }})
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Provider store={store}>
+    <Router>
+      <React.StrictMode>
+        <NavBar/>
+        <App />
+      </React.StrictMode>
+    </Router>
+  </Provider>,
   document.getElementById('root')
 );
 
