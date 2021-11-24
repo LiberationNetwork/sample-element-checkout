@@ -6,14 +6,14 @@
     "runtime-main.js": "/sample-element-checkout/static/js/runtime-main.a7ccdeb0.js",
     "runtime-main.js.map": "/sample-element-checkout/static/js/runtime-main.a7ccdeb0.js.map",
     "static/css/2.6a93e58f.chunk.css": "/sample-element-checkout/static/css/2.6a93e58f.chunk.css",
-    "static/js/2.a0921b25.chunk.js": "/sample-element-checkout/static/js/2.a0921b25.chunk.js",
-    "static/js/2.a0921b25.chunk.js.map": "/sample-element-checkout/static/js/2.a0921b25.chunk.js.map",
+    "static/js/2.0eb1350e.chunk.js": "/sample-element-checkout/static/js/2.0eb1350e.chunk.js",
+    "static/js/2.0eb1350e.chunk.js.map": "/sample-element-checkout/static/js/2.0eb1350e.chunk.js.map",
     "static/js/3.42f4b390.chunk.js": "/sample-element-checkout/static/js/3.42f4b390.chunk.js",
     "static/js/3.42f4b390.chunk.js.map": "/sample-element-checkout/static/js/3.42f4b390.chunk.js.map",
     "index.html": "/sample-element-checkout/index.html",
     "static/css/2.6a93e58f.chunk.css.map": "/sample-element-checkout/static/css/2.6a93e58f.chunk.css.map",
     "static/css/main.6dea0f05.chunk.css.map": "/sample-element-checkout/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.a0921b25.chunk.js.LICENSE.txt": "/sample-element-checkout/static/js/2.a0921b25.chunk.js.LICENSE.txt",
+    "static/js/2.0eb1350e.chunk.js.LICENSE.txt": "/sample-element-checkout/static/js/2.0eb1350e.chunk.js.LICENSE.txt",
     "static/media/cap.af311df6.webp": "/sample-element-checkout/static/media/cap.af311df6.webp",
     "static/media/lib_logo.653cce82.png": "/sample-element-checkout/static/media/lib_logo.653cce82.png",
     "static/media/sc30.1f7b6d70.jpeg": "/sample-element-checkout/static/media/sc30.1f7b6d70.jpeg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.a7ccdeb0.js",
     "static/css/2.6a93e58f.chunk.css",
-    "static/js/2.a0921b25.chunk.js",
+    "static/js/2.0eb1350e.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
     "static/js/main.643971b9.chunk.js"
   ]
