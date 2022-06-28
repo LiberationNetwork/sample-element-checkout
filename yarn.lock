@@ -7906,10 +7906,10 @@ levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-liberalize-frontend-web-sdk@^0.0.16:
-  version "0.0.16"
-  resolved "https://registry.yarnpkg.com/liberalize-frontend-web-sdk/-/liberalize-frontend-web-sdk-0.0.16.tgz#7720e35a318333c27a11662007156b71aaff0aa1"
-  integrity sha512-9OmlxeQoJqh434HARxKYU4w7fiQKEYhwW/pv+UJMTbvLcGwfHGXyl+YKTho+HV9qfWIddREDX5a1N1Gd7bRglw==
+liberalize-frontend-web-sdk@0.0.20:
+  version "0.0.20"
+  resolved "https://registry.yarnpkg.com/liberalize-frontend-web-sdk/-/liberalize-frontend-web-sdk-0.0.20.tgz#618e6b2fc969bc618d5362999658fd222d7c591b"
+  integrity sha512-vG2QLYs6ke7jr2RF95EYJgRS/VkNGfS5g9yT2FIz6eBhpsjdUtWHH3YMRpsiNo4ngpiAXnZ6G5dDx+FBCZhYJA==
   dependencies:
     axios "^0.21.1"
 

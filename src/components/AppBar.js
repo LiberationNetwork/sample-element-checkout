@@ -236,6 +236,7 @@ const Appbar = (props) => {
                 if (!qrModMounted) {
                     setLoadingQRs(true)
                     const supported = await liberalizeClass.qrSupported()
+                    console.log(`supported: \n ${JSON.stringify(supported)}`)
                     // supported will be one more many accounts for a particular payment scheme
                     setQrImages(supported)
                     setQrModMounted(true)
@@ -247,7 +248,7 @@ const Appbar = (props) => {
                     aria-controls="panel1a-content"
                     id="panel1a-header"
                 >
-                    <Typography>QR PAYMENTS</Typography>
+                    <Typography>WALLET PAYMENTS</Typography>
                 </AccordionSummary>
                 <AccordionDetails className={classes.cardMod}>
                     <div>
